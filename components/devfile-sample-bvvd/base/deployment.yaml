@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-bvvd
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0021-tenant/ci1t-830-0021-app/devfile-sample-bvvd@sha256:d5dfce40b2f1bcdd6dca7050f562da4ff9abebf2f4b318ff987193db9c106e62
         name: my-nodejs
         ports:
         - containerPort: 3001
